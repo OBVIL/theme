@@ -11,7 +11,7 @@ a {text-decoration:none;}
 a:hover { background-color: #FFFFFF; }
 h1, h2, h3, h4, h5, h6 { font-family: 'Source Sans Pro', "Lucida Sans Unicode", "Lucida Grande", sans-serif ; }
 aside, .breadcrumb, .but, caption, .cb, .ead, form label, nav, .pb, .tabs , .note, .footnotes, .availability, figcaption.bibl, li.bibl, .editionStmt, .footnotes, .marginalia, .note, #noterefover, .publicationStmt, .sourceDesc, .speaker, .square, .stage  { font-family: 'Source Sans Pro', "Lucida Sans Unicode", "Lucida Grande", sans-serif ; font-size: 14px; color: #000000;} /* color: #3A3937; ? */
-body { font-family: georgia, serif; font-size: 16px; line-height: 1.5em; color: #161616; padding: 0; margin: 0; } /* georgia,​serif */
+body { font-family: georgia, serif; font-size: 16px; color: #161616; padding: 0; margin: 0; } /* georgia,​serif */
 h1 { font-weight: 300; font-size: 150%; }
 h2 { font-weight: 400; }
 hr.floater {display: block; height: 0; clear: both; visibility: hidden; border: none; margin: 0; }
@@ -66,6 +66,8 @@ tr.even td, tr.even td { background-color: #FFFFFF; }
 #header h1 a { font: bold 12px arial; color: #000; text-transform: uppercase; display: inline-block; position: relative; margin-right: 10px; }
 #header h1 a:hover { color: #ac1a2f; }
 #header h1 a:before { content: url(img/fleche-retour-corpus.png); width: 14px; height: 14px; margin: 0px 14px 0 14px; position: relative; top: 3px; }
+#header h1 a.home:before { content:""; margin: 0 5px; height: 0; }
+
 #header p { float: left; }
 #header  img.logo { display:block; float: right; margin: 20px 0 10px 10px; border: none; }
 footer { clear: left; }
@@ -105,6 +107,14 @@ li.here {background-color:#ECEAE1; border-top:1px solid #E1DDCF;}
 .tree ul { margin:1ex 0 1ex 0; border-left:none !important;}
 .square { background-color: #7e6b5d; border: medium none; color: #ffffff; display: block; float: left; font-size: 16px; height: 165px; margin: 0 12px 12px 0; overflow: hidden; padding: 10px 15px; position: relative; text-decoration: none; width: 165px; }
 .square:hover { background-color: #675344; border: medium none; color: #ffffff; }
+.square.couleur1 { background-color:#7e6b5d; }
+.square.couleur1:hover { background-color:#b9afa6; }
+.square.couleur2 { background-color:#675344; }
+.square.couleur2:hover { background-color:#ad9b8d; }
+.square.couleur3 { background-color:#ad9b8d; }
+.square.couleur3:hover { background-color:#675344; }
+.square.couleur4 { background-color:#b9afa6; }
+.square.couleur4:hover { background-color:#7e6b5d; }
 .square::before { bottom: 5px; content: "→"; position: absolute; right: 15px; }
 /** Concordance */
 
