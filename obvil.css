@@ -3,9 +3,8 @@
 LGPL http://www.gnu.org/licenses/lgpl.html
 © 2013–2015 LABEX OBVIL et frederic.glorieux@fictif.org
 
-@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,300italic,700italic');
-
 */
+@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,300italic,700italic');
 * { -moz-box-sizing: border-box; }
 a {text-decoration:none;}
 a:hover { background-color: #FFFFFF; }
